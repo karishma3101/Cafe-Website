@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booktable.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="left-links">
+            <a class="links selected" href="#" id="avn">Desi Urban Chai</a>
+        </div>
+        <div class="right-links">
+            <a class="links" href="homepage.html" id="nb"> Home</a>
+            <a class="links" href="index.html" id="nb">Menu</a>
+            <a class="links" href="booktable.html" id="nb"> OrderNow</a>
+            <a class="links" href="aboutus.html" id="nb">About</a>
+        </div>
+    </nav>
+
+    <section class="banner">
+
+        <h2>ORDER NOW</h2>
+        <div class="card-container">
+            <div class="card-content">
+                <h3>OrderNow</h3>
+                <form>
+                    <div class="form-row">
+                        <select name="days">
+                            <option value="day-select">Select Chai</option>
+                            <option value="sunday"></option>
+                            <option value="monday">Adrak Chai</option>
+                            <option value="tuesday">Paan chai</option>
+                            <option value="wednesday">Chocolate chai</option>
+                            <option value="thursday">Gud chai</option>
+                            <option value="friday">Kesar chai</option>
+                            <option value="saturday">Elaichi Chai</option>
+                        </select>
+
+                        <select name="hours">
+                            <option value="hour-select" aria-required="true">Select Quantity</option>
+                            <option value="10">1</option>
+                            <option value="10">2</option>
+                            <option value="10">3</option>
+                            <option value="10">4</option>
+                            <option value="10">5</option>
+                            <option value="10">6</option>
+                            <option value="10">7</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="text" placeholder="Phone Number" required>
+                    </div>
+
+                    <div class="form-row">
+
+                        <input type="submit" value="Order Now" onclick="myfunc()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6" id="abt">
+                    <h6>About</h6>
+                    <p class="text-justify"> The Desi Urban Chai is one of the luxurios cafe in the LPU, <br> which offers traditional
+                        specialities which you can enjoy in the pleasant air. <br>
+                        The Desi urban Chai is a place where the tradition is blended with
+                        imagination and modern twist.</p>
+                </div>
+
+               
+
+                <div class="col-xs-6 col-md-3" id="ql">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links" id="fl">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="index.html">Menu</a></li>
+                        <li><a href="booktable.html">OrderNow</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12" id="cpy">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+                        <a href="#" id="fl">The Desi Urban Chai</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons" id="si">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+
+        function myfunc() {
+            alert("Your Order has been received!!! Thank you for ordering ");
+        }
+
+
+    </script>
+
+</body>
+
+</html>
